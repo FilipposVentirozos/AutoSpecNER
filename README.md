@@ -90,5 +90,16 @@ commercially, provided you give appropriate credit. See the `LICENSE` file in
 this directory for the full legal text.
 
 ## Citation
-<!-- TODO: add the paper citation before release. -->
-_Citation: TBD._
+If you use this dataset, please cite:
+
+```bibtex
+@misc{lee2026autospecnerfinegrainednamedentity,
+  title={AutoSpecNER: A Fine-Grained Named Entity Recognition Dataset for Vehicle Specification Extraction},
+  author={Jordan Lee and Filippos Ventirozos and Abdirahman Abdullahm and Ioanna Nteka and Peter Appleby and Matthew Shardlow},
+  year={2026},
+  eprint={2606.24387},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2606.24387},
+}
+```
