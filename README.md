@@ -115,17 +115,3 @@ If you use this dataset, please cite:
     ISBN = "979-8-89176-458-3"
 }
 ```
-
-A preprint is also available on arXiv:
-
-```bibtex
-@misc{lee2026autospecnerfinegrainednamedentity,
-  title={AutoSpecNER: A Fine-Grained Named Entity Recognition Dataset for Vehicle Specification Extraction},
-  author={Jordan Lee and Filippos Ventirozos and Abdirahman Abdullahm and Ioanna Nteka and Peter Appleby and Matthew Shardlow},
-  year={2026},
-  eprint={2606.24387},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2606.24387},
-}
-```

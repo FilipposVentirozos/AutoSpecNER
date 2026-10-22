@@ -68,23 +68,3 @@ preferred-citation:
   end: 81
   isbn: "979-8-89176-458-3"
   url: "https://aclanthology.org/2026.icnlsp-1.8/"
-references:
-  - type: article
-    title: "AutoSpecNER: A Fine-Grained Named Entity Recognition Dataset for Vehicle Specification Extraction"
-    authors:
-      - family-names: Lee
-        given-names: Jordan
-      - family-names: Ventirozos
-        given-names: Filippos
-      - family-names: Abdullahm
-        given-names: Abdirahman
-      - family-names: Nteka
-        given-names: Ioanna
-      - family-names: Appleby
-        given-names: Peter
-      - family-names: Shardlow
-        given-names: Matthew
-    year: 2026
-    journal: "arXiv preprint arXiv:2606.24387"
-    doi: "10.48550/arXiv.2606.24387"
-    url: "https://arxiv.org/abs/2606.24387"
