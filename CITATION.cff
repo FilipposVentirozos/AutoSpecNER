@@ -21,6 +21,7 @@ abstract: >-
   across 15 vehicle-specification types, plus a three-annotator
   inter-annotator agreement study on 100 documents.
 license: CC-BY-4.0
+doi: 10.5281/zenodo.23562442
 url: "https://github.com/FilipposVentirozos/AutoSpecNER"
 keywords:
   - named entity recognition

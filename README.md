@@ -1,5 +1,7 @@
 # Vehicle-Identifier NER Resources
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23562442.svg)](https://doi.org/10.5281/zenodo.23562442)
+
 This directory contains two public NER resources extracted from automotive
 advertisement text and annotated for vehicle-identifier entities.
 
@@ -113,5 +115,25 @@ If you use this dataset, please cite:
     url = "https://aclanthology.org/2026.icnlsp-1.8/",
     pages = "67--81",
     ISBN = "979-8-89176-458-3"
+}
+```
+
+The dataset is archived on Zenodo at
+[doi:10.5281/zenodo.23562442](https://doi.org/10.5281/zenodo.23562442). This DOI
+always resolves to the latest version. To cite the dataset itself:
+
+```bibtex
+@dataset{lee_2026_autospecner_dataset,
+    title = "{A}uto{S}pec{NER}: A Fine-Grained Named Entity Recognition Dataset for Vehicle Specification Extraction",
+    author = "Lee, Jordan  and
+      Ventirozos, Filippos  and
+      Abdullahm, Abdirahman  and
+      Nteka, Ioanna  and
+      Appleby, Peter  and
+      Shardlow, Matthew",
+    year = "2026",
+    publisher = "Zenodo",
+    doi = "10.5281/zenodo.23562442",
+    url = "https://doi.org/10.5281/zenodo.23562442"
 }
 ```
