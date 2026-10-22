@@ -1,0 +1,48 @@
+{
+  "upload_type": "dataset",
+  "title": "AutoSpecNER: A Fine-Grained Named Entity Recognition Dataset for Vehicle Specification Extraction",
+  "description": "<p>AutoSpecNER is an expert-annotated dataset for fine-grained named entity recognition (NER) in vehicle advertisements. It contains 659 car listings from a popular car-selling website, annotated with 4,609 entity spans across 15 vehicle-specification types: MAKE, MODEL, TRIM, YEAR, BODY_TYPE, ENGINE_SPEC, FUEL_TYPE, TRANSMISSION, EXTERIOR_COLOUR, INTERIOR_COLOUR, NO_SEATS, BOOT_SIZE, BATTERY_CAPACITY, BATTERY_RANGE and RECHARGE_TIME.</p><p>Contents:</p><ul><li><code>vehicle_ner/</code>: the main dataset (659 documents). Each document is given as character-offset entity spans (the canonical annotation), word-level IOB2 tokens and labels, and a companion character-level IOB2 file.</li><li><code>iaa_study/</code>: an inter-annotator agreement study in which three anonymised annotators independently labelled the same 100 documents.</li><li><code>AutoID_Annotation_Guidelines.pdf</code>: the annotation guidelines.</li></ul><p>All data files are UTF-8 JSON Lines; the README documents the schema and label distribution. The dataset accompanies the paper <a href=\"https://aclanthology.org/2026.icnlsp-1.8/\">AutoSpecNER: A Fine-Grained Named Entity Recognition Dataset for Vehicle Specification Extraction</a>, published in the Proceedings of the 9th International Conference on Natural Language and Speech Processing (ICNLSP-2026), pages 67&ndash;81 (preprint: <a href=\"https://arxiv.org/abs/2606.24387\">arXiv:2606.24387</a>).</p>",
+  "creators": [
+    {"name": "Lee, Jordan"},
+    {"name": "Ventirozos, Filippos"},
+    {"name": "Abdullahm, Abdirahman"},
+    {"name": "Nteka, Ioanna"},
+    {"name": "Appleby, Peter"},
+    {"name": "Shardlow, Matthew"}
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "named entity recognition",
+    "NER",
+    "dataset",
+    "annotated corpus",
+    "natural language processing",
+    "information extraction",
+    "automotive",
+    "vehicle specifications",
+    "car advertisements",
+    "IOB2",
+    "inter-annotator agreement"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://aclanthology.org/2026.icnlsp-1.8/",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "publication-conferencepaper"
+    },
+    {
+      "identifier": "arXiv:2606.24387",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/FilipposVentirozos/AutoSpecNER",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

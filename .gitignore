@@ -1,0 +1,6 @@
+# macOS / external-drive metadata
+._*
+.DS_Store
+
+# Local archive downloads
+*.zip

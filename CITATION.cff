@@ -1,0 +1,90 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the paper below."
+type: dataset
+title: "AutoSpecNER: A Fine-Grained Named Entity Recognition Dataset for Vehicle Specification Extraction"
+authors:
+  - family-names: Lee
+    given-names: Jordan
+  - family-names: Ventirozos
+    given-names: Filippos
+  - family-names: Abdullahm
+    given-names: Abdirahman
+  - family-names: Nteka
+    given-names: Ioanna
+  - family-names: Appleby
+    given-names: Peter
+  - family-names: Shardlow
+    given-names: Matthew
+abstract: >-
+  An expert-annotated dataset for fine-grained named entity recognition in
+  vehicle advertisements: 659 car listings annotated with 4,609 entity spans
+  across 15 vehicle-specification types, plus a three-annotator
+  inter-annotator agreement study on 100 documents.
+license: CC-BY-4.0
+url: "https://github.com/FilipposVentirozos/AutoSpecNER"
+keywords:
+  - named entity recognition
+  - NER
+  - dataset
+  - annotated corpus
+  - natural language processing
+  - information extraction
+  - automotive
+  - vehicle specifications
+  - IOB2
+  - inter-annotator agreement
+preferred-citation:
+  type: conference-paper
+  title: "AutoSpecNER: A Fine-Grained Named Entity Recognition Dataset for Vehicle Specification Extraction"
+  authors:
+    - family-names: Lee
+      given-names: Jordan
+    - family-names: Ventirozos
+      given-names: Filippos
+    - family-names: Abdullahm
+      given-names: Abdirahman
+    - family-names: Nteka
+      given-names: Ioanna
+    - family-names: Appleby
+      given-names: Peter
+    - family-names: Shardlow
+      given-names: Matthew
+  editors:
+    - family-names: Abbas
+      given-names: Mourad
+    - family-names: Freihat
+      given-names: Abed Alhakim
+  collection-title: "Proceedings of the 9th International Conference on Natural Language and Speech Processing (ICNLSP-2026)"
+  collection-type: proceedings
+  conference:
+    name: "9th International Conference on Natural Language and Speech Processing (ICNLSP-2026)"
+    city: Trento
+    country: IT
+  publisher:
+    name: Association for Computational Linguistics
+  year: 2026
+  month: 9
+  start: 67
+  end: 81
+  isbn: "979-8-89176-458-3"
+  url: "https://aclanthology.org/2026.icnlsp-1.8/"
+references:
+  - type: article
+    title: "AutoSpecNER: A Fine-Grained Named Entity Recognition Dataset for Vehicle Specification Extraction"
+    authors:
+      - family-names: Lee
+        given-names: Jordan
+      - family-names: Ventirozos
+        given-names: Filippos
+      - family-names: Abdullahm
+        given-names: Abdirahman
+      - family-names: Nteka
+        given-names: Ioanna
+      - family-names: Appleby
+        given-names: Peter
+      - family-names: Shardlow
+        given-names: Matthew
+    year: 2026
+    journal: "arXiv preprint arXiv:2606.24387"
+    doi: "10.48550/arXiv.2606.24387"
+    url: "https://arxiv.org/abs/2606.24387"

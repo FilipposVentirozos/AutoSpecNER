@@ -89,8 +89,34 @@ license. You are free to share and adapt the material for any purpose, including
 commercially, provided you give appropriate credit. See the `LICENSE` file in
 this directory for the full legal text.
 
+Copyright (c) 2026 The Auto-Spec authors.
+
 ## Citation
 If you use this dataset, please cite:
+
+```bibtex
+@inproceedings{lee-etal-2026-autospecner,
+    title = "{A}uto{S}pec{NER}: A Fine-Grained Named Entity Recognition Dataset for Vehicle Specification Extraction",
+    author = "Lee, Jordan  and
+      Ventirozos, Filippos  and
+      Abdullahm, Abdirahman  and
+      Nteka, Ioanna  and
+      Appleby, Peter  and
+      Shardlow, Matthew",
+    editor = "Abbas, Mourad  and
+      Freihat, Abed Alhakim",
+    booktitle = "Proceedings of the 9th International Conference on Natural Language and Speech Processing ({ICNLSP}-2026)",
+    month = sep,
+    year = "2026",
+    address = "University of Trento, Trento, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.icnlsp-1.8/",
+    pages = "67--81",
+    ISBN = "979-8-89176-458-3"
+}
+```
+
+A preprint is also available on arXiv:
 
 ```bibtex
 @misc{lee2026autospecnerfinegrainednamedentity,
