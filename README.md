@@ -2,8 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23562442.svg)](https://doi.org/10.5281/zenodo.23562442)
 
-This directory contains two public NER resources extracted from automotive
-advertisement text and annotated for vehicle-identifier entities.
+This repository contains two public NER resources extracted from automotive
+advertisement text and annotated for vehicle-identifier entities, together with
+the annotation guidelines (`AutoID_Annotation_Guidelines.pdf`).
 
 Each document is provided in three aligned views:
 - **`entities`** — character-offset spans `{start, end, label}`. This is the
@@ -75,21 +76,20 @@ agreement).
   tool; no subword tokenisation is applied.
 - The character-level view keeps multi-word entities **contiguous** — a space
   inside an entity (e.g. "Black Sapphire") is tagged `I-`, not `O`. Note this
-  differs from the project's internal evaluation substrate
-  (`src/evalutation/eval_token_to_character.py`), which inserts `O` at inter-token
-  spaces; that variant is intended for model comparison, not as a dataset.
+  differs from the project's internal evaluation code, which inserts `O` at
+  inter-token spaces; that variant is intended for model comparison, not as a
+  dataset.
 
 ## Provenance
-Built by `src/data_export/export_public_datasets.py` from the project's raw
-Prodigy annotation exports. The annotator-name mapping for the IAA study is kept
+Built from the project's raw Prodigy annotation exports. The annotator-name mapping for the IAA study is kept
 private and is intentionally not included here.
 
 ## License
-The data in this directory is released under the
+The data in this repository is released under the
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 license. You are free to share and adapt the material for any purpose, including
 commercially, provided you give appropriate credit. See the `LICENSE` file in
-this directory for the full legal text.
+this repository for the full legal text.
 
 Copyright (c) 2026 The Auto-Spec authors.
 
